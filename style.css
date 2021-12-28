@@ -1,7 +1,10 @@
 :root {
     --dark-green: #2c5028;
     --light-grey: #e2e2e2;
+    --maroon: #631d2c;
 }
+
+
 
 body {
     font-family: garamond, serif;
@@ -11,6 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--light-grey);
+    max-height: 100vh;
 }
 
 #picture {
@@ -31,10 +35,10 @@ button {
 }
 
 h1 {
-    background-color: var(--light-grey);
-    color: var(--dark-green);
+    background-color: var(--maroon);
+    color: var(--light-grey);
     padding: 20px;
-    border: solid 10px var(--dark-green);
+    border: solid 10px var(--maroon);
     border-radius: 25px;
     width: 70%;
 }
@@ -57,6 +61,6 @@ h1 {
     }
 
     h2 {
-        margin: 9px 0px;
+        margin: 0px;
     }
 }
